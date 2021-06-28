@@ -220,7 +220,31 @@ There are 2 types of control structures known as
 			break;
 		}
 
-	(ii) Looping 
+	(ii) Looping : 
+
+		while loop : This loop executes all the statements repeatdly until the condition remains true,
+	if the condition remains false, then it comes out of the loop. For every loop basically there are 3 phases known as 
+
+		(i) Initialization  : Performed at the beginning of the loop.
+
+		(ii) Condition  : Performed at the conditional part of the loop.
+
+		(iii) Increment/Decrement : Performed before closing the loop. 
+
+	
+	for loop : This loop executes all the statements repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop. 
+
+		for(initialization;condition;increment/decrement) {
+			statement(s);
+		}
+
+
+
+
+
+
+
+	
 
 
 
