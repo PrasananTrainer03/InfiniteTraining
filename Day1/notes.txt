@@ -261,6 +261,54 @@ a   b  c   m
 	   8
 
 
+do...while : This loop executes all the statements at first atleast once, 
+then it checks for the condition. If the condition remains true, then it repeats
+the statements, else it comes out of the loop. 
+
+do {
+....
+....
+} while(condition);
+
+The min. execution of while loop zero times. 
+
+The min. execution of do...while is one time. 
+
+Array : 
+
+An array is the finite ordered set of homogeneous elements, means all the elements belongs to 
+same data type. 
+
+All the elements of array are stored in successive memory locations. 
+
+int[] a=new int[]{12,5,22,67};
+
+a[0]=12;
+a[1]=5;
+a[2]=22;
+a[3]=67;
+
+int[] a = new int[] {12,66,23,77,56};
+//		for(int i=0;i<a.length;i++) {
+//			System.out.println(a[i]);
+//		}
+		
+		for (int i : a) {
+			System.out.println(i);
+		}
+
+
+How the above foreach loop will execute ???
+
+
+foreach loop will take Enumeration collection. 
+
+In above loop, at first i targets to the first element in Array a,
+
+after processing first element, it checks next element is there or not by using hasMoreElements(),
+if hasMoreElements() returns true, it moves to next element by using nextElement(), it repeats
+as soon as hasMoreElements() returns true. 
+
 
 
 
