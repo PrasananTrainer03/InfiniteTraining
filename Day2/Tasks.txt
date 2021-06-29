@@ -1,0 +1,132 @@
+
+public static void main(String[] args)
+{
+     System.out.println("5" +3+2);
+     System.out.println("5" +(3+2));
+     System.out.println("5" + (3) + (2));
+}
+
+public class Hello {
+  static {
+   System.out.println("HI");
+  }
+  static {
+    System.out.println("Bye");
+  }
+  public static void main(String[] args) {
+  }
+}
+
+int x=12;
+
+Employ employ = null;
+
+
+class Demo {
+  static Demo() {
+	System.out.println("Hi");
+  }
+  Demo() {
+	System.out.println("Bye");
+  }
+  public static void main(String[] args) {
+    new Demo();
+  }
+}
+
+class Test{
+     private Test() {
+       System.out.println("Default Constructor");
+     }
+     public static void main(String[] args) {
+       new Test();
+     }
+}
+
+
+class C1 {
+    C1() {
+     System.out.println("C1 Constructor...");
+    }
+}
+
+class C2 extends C1 {
+   public C2() {
+     System.out.println("C2 Constructor...");
+   }
+}
+
+new C2();
+
+__________________
+
+
+class Test {
+  void show() {
+    System.out.println("Hi");
+  }
+}
+
+class Fest extends Test {
+   static void show() {
+     System.out.println("Bye");
+   }
+}
+
+new Fest().show();
+
+_____________________________________________________________________________________
+
+
+program for multiplication of 2 numbers
+
+100 digit no * 100 digit no i need exact value
+
+
+Write a Program to display a number in Rowman Format 
+
+no. for 1 to 9999 
+
+10 X
+
+11 XI
+
+12 XII
+
+13 XIII
+
+8 VIII
+
+9 IX
+
+
+
+Write a program to convert decimal to binary 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

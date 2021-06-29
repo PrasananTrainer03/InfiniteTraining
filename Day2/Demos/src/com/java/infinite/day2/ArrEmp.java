@@ -18,10 +18,12 @@ public class ArrEmp {
 		e3.name="Pavan";
 		e3.basic=88166;
 		
-		Emp[] arrEmp = new Emp[3];
-		arrEmp[0]=e1;
-		arrEmp[1]=e2;
-		arrEmp[2]=e3;
+	//	int[] a = new int[] {1,2,3};
+		Emp[] arrEmp = new Emp[] {e1,e2,e3};
+//		Emp[] arrEmp = new Emp[3];
+//		arrEmp[0]=e1;
+//		arrEmp[1]=e2;
+//		arrEmp[2]=e3;
 	//	arrEmp[3]=e4;
 		
 		for (Emp emp : arrEmp) {
