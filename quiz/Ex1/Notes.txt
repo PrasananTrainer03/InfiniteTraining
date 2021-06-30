@@ -1,0 +1,68 @@
+is a
+"is-a" means to create a subclass, which is a more specific type of the superclass.
+
+For example, a Manager is a specific type of Employee. An Employee is a specific type of Object.
+
+Inheritance guarantees that whatever behavior is in Employee will be present in Manager.
+
+If code works with a class, it will work with the class's subclass.
+
+Example
+Consider the following snippet of code:
+
+Employee emp;
+emp = new Employee();
+emp.setName("Mary");
+String name = emp.getName();
+
+ 
+A Manager object can be assigned to an Employee variable
+
+Employee emp;
+emp = new Manager(); 
+emp.setName("Mary");
+String name = emp.getName();
+Upcasting
+All of the following assignments are allowed and they are all examples of upcasting:
+
+Object obj;
+Employee emp;
+Manager mgr;
+PartTimeManager ptm;
+
+// An employee is always an object
+obj = emp;
+
+// A manager is always an employee
+emp = mgr;
+
+// A part-time manager is always a manager
+mgr = ptm;
+
+// A part-time manager is always an employee
+emp = ptm;
+
+// A part-time manager is always an object
+obj = ptm;
+
+
+_______________________________
+
+
+class A {
+  public final void m1() {
+  }/*from  ww  w .j a  v a2s.co m*/
+
+  public void m2() {
+  }
+}
+
+class B extends A {
+  // Cannot override A.m1() here because it is final in class A
+  // OK to override m2() because it is not final in class A
+  public void m2() {
+    // Code goes here
+  }
+}
+
+
