@@ -1,0 +1,167 @@
+interfaces : 
+
+Java does not support the concept of multiple inheritance, to achieve this we need the help of interfaces.
+
+An interface contains the method declaration, and the implementation can be done in the corresponding class, 
+you can add more than one interface to the particular class. 
+
+Difference between interface and abstract class :
+___________________________________________________
+
+(i) An abstract class contains both abstract and non-abstract methods, where 
+interface contains only abstract classes. 
+
+(ii) interface methods are public and abstract by default. 
+
+(iii) Multiple inheritance can be achieved by using interfaces. 
+
+(iv) An interface can be called from anywhere to anywhere. 
+
+interface interfaceOne 
+{
+    method1();
+    method2();
+}
+
+class class_name implements interfaceOne {
+...
+...
+...
+...
+}
+
+
+final keyword : 
+
+
+final variables cannot be re-assigned
+
+final methods cannot be overrided
+
+final classes cannot be inherited. 
+
+enum : Used to define the group of constants. 
+
+public enum WeekDays {
+   	SUNDAY, 
+	MONDAY, 
+	TUESDAY, 
+	WEDNESDAY, 
+	THURSDAY, 
+	FRIDAY, 
+	SATURDAY
+}
+
+Except above values no values can be allowed. 
+
+void show(int x) {
+....
+....
+....
+}
+
+
+show();
+show(12);
+show(12,5);
+show(12,66,23);
+
+Exception Handling : 
+_____________________
+
+
+It is a mechanism of handling the runtime errors, during execution of the program.  There are 2 types of errors known as 
+
+	(i) Compile Time 
+
+	(ii) Runtime 
+
+By using Exception Handling, we can overcome the runtime errors. 
+
+To handle errors, we have 3 blocks as 
+
+
+	(i) try block  : This block contains statements in which there is possibility of getting runtime 			errors. The statements which are placed in this block are treated as heavy weighted
+			statements as JVM allocates excess memory to them. 
+
+	(ii) catch block : Once exception raised in try block, then the control will be forwarded to catch 				block, this block contains the alternate statements for exceptions raised in 			try block. One try block can contains multiple catch blocks.
+
+	(iii) finally block : This block contains statements in that needs to be executed mandetorily 				irrespective of try and catch blocks. This block is not mandetory, but all the 				statements which are placed in this block are executed as mandetory statements.
+
+
+	Exception is the top most class, from which all kinds of exceptions are derived. 
+
+syntax : 
+_________
+
+		try {
+		  ...
+	          ...
+		  ...
+		} catch (Exception e) {
+		   ...
+		   ...
+		   ...
+		}
+
+
+printStackTrace() : Used to define all information about errors, like errorMessage, LineNo, charPos Exception class. 
+
+Types of Exceptions : 
+______________________
+
+There are 2 types of exceptions known as 
+
+	(i) Checked Exceptions : These are the exceptions that which occurs a compile-time. During compilation 			JVM feels some erroneous code is there and stops the execution at compile time, and can 			be handled at method level by using throws keyword.
+
+	(ii) Unchecked Exceptions : These are the exceptions that which can be handled at runtime, and can be handled by using try...catch blocks. 
+
+
+throw keyword : 
+________________
+
+	if you want to throw the error(s) based on the condition, then we need the help of throw keyword. 
+
+Difference between throw and throws :
+______________________________________
+
+throws will be at method level where throw will be at code level
+
+throws will throw an exception class, where throw will send as an object. 
+
+System exceptions are inadequate to handle in all situations, to overcome this we need the help of custom exceptions. 
+
+Any class that which derived from Exception, can be treated as CustomException. 
+
+class CustomException extends Exception {
+     CustomException(String error) {
+        super(error);
+     }
+}
+
+
+Write a program as perform sum of 2 numbers, but if any number < 0 then throw NegativeException, 
+if any number = 0 then throw ArithmeticException 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
