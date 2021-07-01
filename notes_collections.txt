@@ -66,6 +66,45 @@ LeaveDetails
         leaveReason
  
 
+Generics : 
+
+Drawbacks with collections 
+
+    -> It will not restrict data.
+
+    -> Typecasting
+
+I need method to write once and apply for all types, then we need the help of generics. 
+
+Generics provides an opportunity to pass data types at runtime. 
+
+You can define generics notation by using <T>. 
+
+example : 
+
+public void show(int x) {
+...
+...
+}
+
+public void show(T x) {
+....
+....
+}
+
+in place of T, we can pass any type at runtime. 
+
+Why Generics : 
+______________
+
+	(i) Write Once and apply for all types. 
+
+	(ii) Reduce the size of the program.
+
+	(iii) No TypeCasting Required
+
+	(iv) Provides restrictions to the given collection. 
+
 
 
 
