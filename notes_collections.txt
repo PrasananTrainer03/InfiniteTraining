@@ -1,0 +1,72 @@
+Drawback with arrays :
+
+Arrays are static data structures, as we cant alter size at runtime. 
+
+To overcome this, we need the help of Collections. 
+
+Collections : 
+
+A collection is an object that contains a group of objects within it. These objects are called the elements of the collection.  The elements of collectin descend from a common parent type.  Collections have an adv. over arrays that collectino can grow to any size unlike arrays. 
+
+Scanner : This class allows you to read data from keyboard/file etc...
+
+Scanner sc = new Scanner(System.in);
+
+For scanner, we need to use java.util package. 
+
+
+Constructors : 
+
+1. CollectionName() -> Creates an empty collection. A void  constructor does not accept any arg.
+
+2. CollectionName(Collection col1) : Creates a new collection that accepts a collection as an arg. and returns the collection containsing the same elements as the collection arg. 
+
+nextLine() : 
+
+next() 
+
+nextInt()
+
+nextDouble() 
+
+List Interface : This interface extends the collection to handle sequence or a list of objects. Elements can be inserted in a list and can be accessed from a list using their index pos. in the list. 
+
+
+ArrayList is the class which falls under List interface.
+
+int x=12;
+
+Integer x = new Integer(12); // wrapper class. 
+
+iny y =Integer.valueOf(x);
+
+Set interface : This interface extends the Collection interface to handle sets containing unique elements.  This interface does not allow any duplicate elements in a set. 
+
+HashSet and LinkedHashSet are falling under Set interface. 
+
+SortedSet interface : Used to extends the Set interface to handle the sorted sets. The elements of a set are ordered in ascending order in a sorted set.  
+
+TreeSet is falling under SortedSet interface. 
+
+SimpleDateFormat : Used to format date w.r.t. specific format. 
+
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+format() : Used to convert string to date. 
+
+parse() : Used to convert date to string. 
+
+LeaveDetails
+	leaveId
+	empno
+	leaveStartDate
+        leaveEndDate
+        leaveType
+        leaveStatus
+        leaveReason
+ 
+
+
+
+
+
