@@ -1,0 +1,310 @@
+pooja 
+soujanya
+shantanu
+____________________________________
+
+A file is a collection of related records placed in aparticular area on the disk.  A record is composed of several fields and a field is a group of chars. 
+
+Stream Classes : 
+
+If you want to work with files, then you need to include the package java.io;
+
+This package contains the large no.of stream classes that provides capabilities for processessing all types of data.  These classes may be catgegoriezed into two groups based on the data type on which they operate. 
+
+1. Byte stream classes that provide support for handling input/output operations on bytes. 
+
+2. Character stream classes that provide support for managing I/O operations on characters. 
+
+1. InputStream Classes : These classes are used to read 8-bit bytes include a super class known as  InputStream and a no.of subclasses for supporting various input-related functions. 
+
+2. OutputStream Classes : These classesa re dervied from the base class OutputStream. This is an abastract class and we cannot instantiate it. 
+
+using FILE Class : java.io package includes a class known as File that provides support for creating filesw and directories. The class includes several constructors for instantiating the File Objects. 
+
+
+
+1. File Class : 
+
+    File(File dirobj,String filename) : Creates a new instance of the File Class. The obj. is a File object that specifies a directory. The filename arg. specifies the name of the file.
+
+   File(String direcotyrPath) : Creates the new instance for the File class. 
+   File(String directorypath,String filename) : Creates a new instance of the File class. The arg. directorypath specifies the path of the file. 
+
+Various methods of the File Class :
+
+1. String getName() -> Retrives the name of the specified file.
+
+2. String getParent() -> Retrieves the name of the parent directory. 
+
+3. String getPath() -> Retrieves the path of the specified file. 
+
+4. String[] list() -> Displays the list of files and directories of specified directory.
+
+1. Program to Display the properties of a file and list of files in the directory.
+
+_____________________________________________________
+
+Reader Stream Classes : These classes are used to read characters from the files. Reader class is the base class for all other classes in this group. 
+
+Reader class contains methods that are identical to those availabel int he InputStream. 
+
+Writer Stream Classes : These classes are designed to perform all output operations on files. Only difference is that while output stream classes are designed to write bytes, the writer steram clases are designed to write characters. 
+
+FileInputStream 
+________________
+
+Used to perform operations on the file such as reading data from the file. 
+
+1. FileInputStream(File f) : Creates a file input stream that connects to an existing file to be used as data source. File object specifies the name of the file 
+
+File f=new File("c:\\java","file1.txt");
+
+FileInputStream f1=new FileInputStream(f);
+
+2. FileInputStream(String s) : Creates a file input stream that connects to the existing file to be used as a data source. The path of the file in file system is given by the string arg. 
+
+FileInputStream f=new FileInputStream("c:\\java.txt");
+
+_____________________________________________________________
+
+Handling Primitive Data Types : 
+
+To handle primitive data types, for this we need the help of DataOutputStream class. 
+
+The classes DataInputStream and DataOutputStram used to handle the primitive data types. 
+
+FileInputStream fis=new FileInputStream("f1.java");
+DataInputStream din=new DataInputStream(fis);
+
+FileOutputStream fout=new FileOutputStream("f1.java");
+DataOutputStream dout=new DataOutputStream(fout);
+
+_______________________________________________________________________
+
+java also supports the creation of buffers to store temporarily data that is read from or written to a stream. The process is known as buffered i/o operation. A buffer sits with program and source and functinos like a filter. Buffers can be created by using BufferedInputStream and BufferedOutputStream. 
+
+_______________________________________________________________________
+
+DataInputStream : If you want to read the custom input, then we need the help of DataInputStream. 
+
+_________________________________________________________________________
+
+ObjectInputStream -> It is used to deserialize the primitive data and objects that are written using the ObjectOutputStream. 
+
+Methods : 
+
+  1. readObject() -> used to read an object from the ObjectInputStream. 
+  2. Close() -> Used to close the particular stream.
+
+
+ObjectOutputStream -> It is used to write the objects into the specified file. 
+
+Methods :
+
+   1. writeObject(Object obj) throws Exception : Writes an object into the stream. 
+   2. flush() throws Exception : Ensures that the data stored in the buffer is written to a file to which the stream is connected.    
+   3. close() -> Closes the stream and releases all the resources occupied by the stream. 
+
+1. Prog. to work with ObjectOutputStream. 
+
+A class implments the Serializable interface in order to serialize its objects. 
+
+___________________________________________________________________________
+
+Collections : 
+
+A collection is an object that contains a group of objects within it. These objects are called the elements of the collection.  The elements of collectin descend from a common parent type.  Collections have an adv. over arrays that collectino can grow to any size unlike arrays. 
+
+Constructors : 
+
+1. CollectionName() -> Creates an empty collection. A void  constructor does not accept any arg.
+
+2. CollectionName(Collection col1) : Creates a new collection that accepts a collection as an arg. and returns the collection containsing the same elements as the collection arg. 
+
+List Interface : This interface extends the collection to handle sequence or a list of objects. Elements can be inserted in a list and can be accessed from a list using their index pos. in the list. 
+
+Set interface : This interface extends the Collection interface to handle sets containing unique elements.  This interface does not allow any duplicate elements in a set. 
+
+SortedSet interface : Used to extends the Set interface to handle the sorted sets. The elements of a set are ordered in ascending order in a sorted set.  
+
+__________________________________________________________
+
+Classes used in the Collections are : 
+
+ArrayList class : This supports dynamic arrays that can grow as needed. In java, standard arrays are of a fixed length. after arrays are created, they cannot grow or shrink, which means that you must know in advance how many elements an array will hold. 
+
+Working with ArrayList() class. 
+
+1. ArrayList class : This supports dynamic arrays that can grow as needed. In java, standard arrays are of a fixed length. after arrays are created, they cannot grow or shrink, which means that you must know in advance how many elements an array will hold. 
+
+Working with ArrayList() class. 
+
+Prog. to demo about ArrayList().
+
+Obtaining an Array from an ArrayList : 
+
+-->  To obtains faster processing times for certain operations.
+
+-->  To pass an array to a method that is not overloaded to accept a colleciton.
+
+-->  To integrate your newer, collection-based code with legacy code that does not understand collections. 
+ 
+Prog. to implement Array from an ArrayList. 
+
+LinkedList() class is used to add the values into the linked list. 
+
+HashSet : It creates a collection that uses a hash table for storage. It stores information by uing a mechanism called hashing.  
+
+It contains the methods as add(), contains() and remove()
+
+Prog. to implement Array from an ArrayList. 
+
+LinkedList() class is used to add the values into the linked list. 
+
+HashSet : It creates a collection that uses a hash table for storage. It stores information by uing a mechanism called hashing.  
+
+It contains the methods as add(), contains() and remove()
+
+Iterator : Display the elements of a collection class in looping order. 
+
+1. Obtain an iterator to the start of the collection by calling the collection's iterator() method. 
+
+2. set up a loop that makes a call to hasNext()
+
+3. To repeat the loop goto next() method. 
+
+Treeset : It provides an implementation of a Set interface that uses a tree for storage.  
+
+Comparators : This interface defines two methods
+
+methods : 
+
+void addFirst(Object obj)
+void addLast(Object obj)
+
+To Remove the elements, 
+
+Object removeFirst()
+Object removeLast()
+
+int[] a=new int[1000];
+
+Vector()
+Vector(int size)
+Vector(int size,int incr)
+Vector(Collection c)
+
+If you want to see the available methods of a specific class, then use the java command as 
+
+javap java.util.ArrayList
+javap java.util.Vector
+
+wrapper class : The concept of Converting the primitive data types into objects and objects into primitive data types is called wrapper. 
+
+Hashtable : It is concrete implementation of a Dictionary.  Used store key/value pairs in a hash table. When using a Hashtable, you specify an object that is used as a key, and the value that you want linked to the key.  
+
+Properties :  It is a subclass of Hashtable. It is used to maintain lists of values in which the key is a String and the value is also String. THe Properities class is used by many other Java Classes, and the object is returned by using System.getProperties() 
+
+Applets are small java programs that are primarily used in internet computing. They can be transported over the internet from one computer to another and run using the Appletviewer or any web browser that supports java. An applet, like any app program, can do many things for us. java applets have bugun to make a significant impact on the WWW. 
+
+There ar 2 types of applets available to us. 
+
+An applet developed locally and stored in a loca system is known as local applet. When a page is trying to find a local applet, it does not need to use the internet and therefore the local system does not require the internet connection. 
+
+A remote applet is that which is developed by someone else and stored on a remote computer connected to the internet.  If our system is connected to the internet, we can dowload the remote applet on to our system via the intenet and run it. 
+
+In order to locate and load the remote applet, we must know the applet's address on the web. This address is known as URL and must be specified in the applet's HTML document as the value of the CODEBASE attribute. 
+
+How applets are different from other apps.
+
+1) Applets do not use the main() method. 
+2) Unlike stand-alone apps, applets cannot be run independently. They are run from insdie a web page using a special feature known as HTML tag. 
+3) Applets cannot read from or write to the files in the local computer. 
+4) Applets cannot communicate with other servers on the network. 
+
+
+Applets Life Cycle : 
+
+The Applet states include : 
+
+1) Born or initialization state
+2) Running state 
+3) Idle state 
+4) Dead or destroyed state. 
+
+Initialization state : Applet enters into the state when it is loaded first time. This is achieved by using the init() method. 
+
+Running State : It enters into the running state when the system calls the start() method of Applet class. This occurs automatically after the applet is initialized. 
+
+Idel State : When it is stopped from running it enters into idle state. 
+
+Stopping occurs automatically when we leave the page containing the currently running applet.  We can also do so by calling the stop() method explicitly. 
+
+Dead State : When it is remove from the memory, then it is in dead state. This occurs automatically by invoking the destroy() method when we quit the browser. This state occurs only once in the applet's life cycle. 
+For Initialization state we need to use init() method. 
+
+public void init()
+{
+   ....
+   ....
+   .... (Action)
+}
+
+For Running state we need to use start() method. 
+
+public void start()
+{
+.....
+.....
+..... (Action)
+}
+
+Idle or Stopped State : We need to use stop() method. 
+public void stop()
+{
+.....
+.....
+}
+Dead State :  for this we need to use destroy() method. 
+public void destroy()
+{
+....
+....
+}
+If you want to display any value, then give paint() method. 
+public void paint(Graphics g)
+{
+...
+... 
+}
+
+
+TextBox : This class allows you to create a textbox object and that will be added to the Applet. 
+
+TextBox t1=new TextBox(12);
+
+add(t1);
+
+Button : This is used to perform action events when you click on that. 
+
+Button b1=new Button("One");
+add(b1);
+b1.addActionListener(this);
+
+Once you click on this button, some action it need to be performed. For this you need actionPerfomed() method. 
+
+By default button implements ActionListener interface. 
+
+Passing Parameters to Applets : 
+
+TextField : Allows you to read data into that. 
+
+getText() : Used to read the text in the TextField.
+
+setText() : used to place text in the textfield. 
+
+
+
+
+
+
