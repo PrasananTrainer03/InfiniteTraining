@@ -1,0 +1,94 @@
+Files : 
+
+A file is a collection of data, that which allows you to store the output
+permanently. To deal with files, we need the help of java.io pacakge
+
+File class : This class allows you to deal with file properties. 
+
+FileReader : Used to read the data from the file w.r.t. Unicode chars. 
+
+It only reads text files not other formats.  
+
+FileReader fr = new FileReader(filename);
+
+FileNotFoundException
+IOException  
+
+The above 2 checked exceptions may fire. 
+
+read() : Used to read data char/char and returns the ascii value. So, we need to typecast to (char) type. 
+
+It returns -1 once it reaches the EOF. 
+
+FileWriter : Used to write data into the file w.r.t. Unicode chars. 
+
+write() : writes the data into the file 
+
+FileInputStream : used to read data w.r.t. Stream of bytes. 
+
+FileInputStream fin = new FileInputStream(filename);
+
+read() : Used to read data char/char and returns ascii value. 
+
+DataOutputStream : Used to write data w.r.t. primitive types. 
+
+writeInt()
+writeDouble()
+writeUTF()
+writeBoolean()
+
+DataInputStream : Used to read data w.r.t. primitive types. 
+
+readInt()
+readDouble()
+readUTF()
+readBoolean()
+
+BufferedReader : used to read data from the keyboard. 
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+readLine() : Used to read one line of input. 
+
+ObjectOutputStream : Used to write objects into the file. 
+
+ObjectOutputStream objout = new ObjectOutputStream(filename);
+
+writeObject() : Used to write the object into the file. 
+
+ObjectInputStream : Used to read the objects from the file. 
+
+readObject() : used to read the object from the file. 
+
+Serilization : Used to write custom objects into the file. 
+
+To write any custom class object into the file, then we need to implement the 
+Serilizable interface. 
+
+Then only we can write the object to the file. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
