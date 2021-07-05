@@ -1,0 +1,277 @@
+
+pooja
+soujanya
+shantanu
+_________________________________________________________
+
+this keyword : If you want to intitialize the current memebers of the class then we need the help of this keyword. 
+
+Inheritance : The concept of deriving a new class from already existing class is known as inheritance. 
+
+The class which is derived is known as derived class, the class from which it is derived is known as base class. 
+
+defining the subclass 
+
+
+class subclassname extends superclassname
+{
+    variables;
+    methods;
+}
+
+Java does not support the concept of Multiple inheritance, to achieve this we need the help of interfaces. 
+
+using super :  If you want to assign values to the base class members then you need the help of super keyword. 
+
+super has two general forms. First it calls the superclass constructor. The second is used to access a member of a superclass that has been hidden by a member of a subclass. 
+_____________________________________________
+
+Assume if two classes contains the default constructor and these classes are being inherited. Then if you create an object for the derived class which constructor is executed 
+
+__________________________________________________________________
+
+abstrct class : A class that which can be declared but not implemeted and instantiated is called abstract class. You cannot create an object for the abstrct class. 
+
+If any method is declared in the abstrct class, that must be implemented in the corresponding derived class. 
+
+declaration : 
+
+abstrct class class_name
+{
+     abstrct method1;
+     abstrct method2;
+}
+
+The implementation of the abstract class methods are done in the derived class. 
+
+
+final keyword : If you want to protect a method without overriding and block a class to not inherit then use final keyword. 
+
+________________________________________________________________________
+
+java does not support the concept of multiple inheritance, to achieve this we need the help of interfaces. 
+
+An interface also contains the method declaration and the implementation can be done in the derived class. 
+
+You can add more than one interface to the class. 
+
+interface interface_name
+{
+     method1;
+     method2;
+}
+
+You can add an interface to the class by using the implements keyword. 
+
+______________________________________________________________________________
+
+packages : Packages are java's way of grouping a variety of classes in and interfaces together. The grouping is usually done according to functinoality. IN fact, packages act as containers for classes. Packages are similar to class libraries in other languages. 
+
+Benefits : 
+
+1. The classes contained in the packages of other programs can be easily reused. 
+
+2. In packages, classes can be unique compared with classes in other packages. That is, two classes in two different packages can have the same name. 
+
+3. packages provides the way to hide classes thus preventing other programs or packages from accessing classes that are meant for internal use only. 
+
+You can add a package to the program by using import statement. 
+
+You can add a package as import packagename.classname;
+
+or 
+
+import packagename.*;
+
+import java.awt.*;
+import java.awt.event.*;
+
+Naming Conventions : 
+
+double y=java.lang.Math.sqrt(x);
+
+in this lang is the package name. 
+
+math is class name 
+
+sqrt is the method name. 
+
+Creating a package : 
+
+You can create a package as 
+
+package package_name
+public class class_name
+{
+    ....
+    ....
+}
+
+Steps : 
+
+1. Declare a package at the beginning of the file using the form.
+2. Declare the class that is to be put in the package and declare it public. 
+3. store the listing of the class name.java file in the subdirectory created. 
+4. compile the file then the class file is created. 
+
+________________________________________________________________________
+
+Exceptional Handling : An exception is a condition that is caused by the run-time error in the program. When the java interpreter encounters an error during the execution of the program. 
+
+try block : This block contains the statements that may cause erros during the execution of the program.  
+
+catch block : This block contains the alternate statements for the errors caught by the try block. You can write multiple catch block for a single try block. 
+Each try block atleast contains one catch block. 
+
+finally block : This block contains the statements that need to be executed mandetarily. The finally statement alos used to handle an exception that is not caught by any of the previous catch statements. 
+
+When the finally block is defined, that is guaranteed to execute, regardless of whether or not an exception is thrown. 
+
+syntax :
+
+try
+{
+   // block of code to monitor for errors
+}
+
+cach(ExcetionType1 ob)
+{
+   // exception handler for Exception Type1
+}
+
+catch(ExceptionType2 ob)
+{
+   // exception handler for Exception Type2
+}
+
+finally
+{
+    // block of code to be executed before try block ends
+}
+
+throw : If you want to throw an exception object from one exception to another, then we ned throw keyword. 
+
+syntax :
+
+throw throwableinstance;
+
+throws : If a method is capable of causing an exception that it does not handle, it must specify this behavior so that callers of the method can guard themselves against that exception. For this, you need to use throws clause in the methods declaration. 
+
+This throws keyword is used in creating and redirecting the custom exceptions. 
+
+creating custom exceptions: 
+
+You can create a custom exception, that need to be derived from the Exception class. 
+
+class exception1 extends Exception
+{
+    exception1(String msg)
+    { }
+
+}
+
+
+___________________________________________________
+
+Assertions : By using this you can restrict the values. It is a condition that should be true during the execution of the program. It can be checked by using assert statement. 
+
+You need to compile the assertion files as 
+
+javac -source 1.4 file_name 
+
+To run the Assertion file, you need to give 
+
+java -ea filename
+
+java -ea ass1 -> Enables the assertion
+java -da ass1 -> Disable the assertion.
+
+
+Types of Multi-taskings : 
+
+Basically there are 2 types multi-tasking 
+
+1. co-operative mutlitasking
+2. preemptive multitasking 
+
+In preemptive multitasking, in the list of tasks if any task is finished, the timeslot allotted to finish the task is not added to the corresponding tasks, it will be added to the memory. 
+
+Win95
+
+In Co-operative Multi-tasking the time slot is added to the correponsing tasks. 
+
+Multi-threading : More than one task can be performed in a single program is known as multi-threading. You can give priorities to the tasks. 
+
+It is a conceptual programming where a program is divided into two or more subprograms, which can be implemented at the same time in parallel. A thread is similar to a program that has a single flow of control. It has a beginning, a body, and an end. 
+Multithreading is a powerful programming tool that makes java distinctly different from its felow programming languages. 
+
+Creating Threads : Threads are implemented in the form of objects that contains a method called run()
+
+Life cycle of a Thread : 
+
+During the life time of a thread, there are many states it can enter. 
+
+1. Newborn state
+
+2. Runnable state
+
+3. Running state 
+
+4. Blocked state 
+
+5. Dead State 
+
+Newborn State : When we create a thread object, the thread is born and is said to be in newborn state. Here the thread is not scheduled for running. 
+
+Runnable State : This state means the thread is ready for execution and is waiting for the availablility of the processor. That is, the thread has joined the queue of threads that are waiting for execution. If all threads have equal priority then the time slots for execution in first-come first-serve manner. 
+
+Running State : The Processor has given its time to the thread for its execution, the thread runs until it relinquishes control on its own or it is preempted by a higher priority thread. 
+
+Blocked State : A thread is said to be the blocked when it is prevented from entering into the runnable state and subsequently the running state. This happens when the thread is suspended,sleeping or waiting in order to satisfy certain requirements. 
+
+Dead State : A running thread ends its life when it has completed executing its run() method. It is a natural death. 
+
+You can activate a thread by using Start() method. 
+
+once the start() method is called then the code written in run() method get executed. 
+
+
+You can create a new thread ini 2 ways. 
+
+1. By creating a thread class : Define a class that extends Thread class and override its run() method with the code required by the thread. 
+
+2. By converting a class to a thread : Define a class that implements the Runnable interface.
+
+Declaring a class : 
+
+class threadname extends Thread
+{
+     ....
+     ....
+}
+
+Implementing the run() method : 
+
+public void run()
+{
+   ....
+   ....
+}
+
+Starting a Thread : 
+
+MyThread obj=new MyThread();
+obj.start();
+
+Thread Priority : 
+
+ThreadName.setPriority(number);
+
+MIN_PRIORITY
+MAX_PRIORITY
+NORM_PRIORITY
+
+
+
+
+
