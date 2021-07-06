@@ -1,0 +1,20 @@
+
+
+1) Display all records from agent table
+
+2) Display all records from Agent whose MaritalStatus is 0
+
+3) Display AgentId, firstName,LastName,city,state, MaritalStatus, 
+
+	if maritalStatus is 0 then 'Unmarried'
+        if maritalStatus is 1 then 'Married'
+
+4) Display all records from Policy 
+
+5) Display all records whose Annualpremium > 100000
+
+6) Display PolicyID, AppNumber, PayMode, 	
+	if paymode is 1 then 'Yearly'
+	if payMode is 2 then 'Half-Yearly'
+	if payMode is 3 then 'Quarterly'
+
