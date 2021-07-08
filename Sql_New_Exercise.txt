@@ -1,0 +1,11 @@
+Please do the following tasks in employ table
+
+1) Write a query from Employ table who have 1 part name (as only one word)
+
+2) Write a Query from Employ table who have 2 part name (as 2 words)
+
+3) Write a query from Employ table who have 3 part name (as 3 words )
+
+4) Write a query as whose first 2 part names starts with same char (as vishnu vardhan)
+
+5) Write a query as whose first 3 part names start with same char (Kiran Kumar Kailasam) 
