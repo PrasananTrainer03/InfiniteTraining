@@ -1,0 +1,193 @@
+
+
+Object Oriented Programming : It is an approach that provides a way of modularizing programming that which can be used to create small partitioned memory area for both data and objects which are to be used as templates for creating copies of such modules on demand. 
+
+Object : Object is an entity that contains the properties as it state, identity and behaviour. 
+
+Class : It contains the combination of data members and member functions together as a set. 
+
+__________________________________________________________________
+
+Java is purely object oriented programming language. 
+
+Why Java : 
+
+If you want to create applications with respect to platform independence, distributed and robust applications then we need the help of java programming lanague. 
+
+Java Programs fall into two categories, Applications and Applets. 
+
+Application programs are the programs that which can execute from any operating system command prompt. Standalone appliactinos can either be windows-based applications or console applications. 
+
+Applets are the java programs that execute inside a web page. Therefore, unlike applicatins, applets require a java-enabled browser like Internet explore etc.. 
+
+An applet is simple to use, sice all that the user has to do to start the applet is - access a web page. 
+
+________________________________________________________________-
+
+Types of Applications 
+
+1) Console Applications 
+2) Windows Applications 
+3) Web-based applicatinos
+
+Console Applications are the applications, that which are to be executed at the command prompt. 
+
+Windows Applications are the applications that which are executed in a window. 
+
+Web-based applications are the applications that whicha are executed in a web browser.  
+
+In java you can create there 3 kinds of applications. 
+
+___________________________________________________________________________
+
+OOPs :
+
+1) Inheritance : The concept of deriving a new class from already existing class is known as inheritance.  
+
+2. Encapsulation : The wrapping up of data and methods into a single unit is known as encapsulation. It is the most striking feature of a class, The data is not accessible to the outside world and only those method, which are wrapped in the class can access it.  This feature is also known as Encapsulation. 
+
+3) Abstraction : The act of representing essential features without including the background details or explanations.  
+
+4) Polymorphism : The ability to take more than one form is known as polymorphism. 
+
+Assume that Travel is the mechanism and CAR TRAIN FLIGHT 
+
+________________________________________________________________
+
+
+Features of Java : 
+
+1) Compiled and interpreted : Usually a computer language is either compiled or interpreted.  Java combines both these approaches thus making java a two-stage system. First the java compiler translates source code into what is knownas bytecode instructions. Bytecode is not machine instructions and therefore, in the second stage java interpreter generates the machine code that can directly executed by the machine that is running the java program. 
+
+2) Object Oriented : It is purely object oriented language. And everything in java is an object almost. All program code and data reside within objects and classes.  The object model in java is simple and easy to extend. 
+
+3) Robust and Secure : java provides safe guards to ensure reliable code. It has strict compile time and run time checking for data types. 
+
+Security becomes an important issue for a language that is used for programming on internet. Threat of viruses and abuse of resources is everywhere. java systems not only verify all memory access but also ensure that no viruses are communicated with an applet. 
+
+4) Distributed : It is a distributed language for creating applications on networks.  It has the ability to share both data and programs.  Java apps can open and access remote objects on internet as easily as they can do in a local system. 
+
+_____________________________________________________________
+
+Writing a Java program. 
+
+use the main function as 
+
+public static void main(String[] args)
+
+static ensures that object of the class will not access the main function.
+
+You can create an object to the class as 
+
+class_name obj=new class_name();
+
+Scanner : Which allows you to read data from keyboard. 
+
+it is there in java.util package, you have to import as 
+
+import java.util.Scanner;
+
+Scanner sc=new Scanner(System.in);
+
+nextInt()
+nextDouble();
+nextLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you want to display the values, then you need to use the output statement as
+
+System.out.println()
+
+If you want to convert the value for one data type to another data type, then
+
+int a,b;
+
+a=Integer.parseInt(args[0])
+
+It converts the first command line arg into the integer type.
+
+b=Float.parseFloat(args[1])
+
+Converts into the double type. 
+
+To compile the java program, give 
+
+javac filename.java
+
+
+to execute java program 
+
+java filename. 
+
+Array : An array is the finite ordered set of homogeneous elements, means all the elements belongs to same data-type. 
+
+_________________________________________________________________
+
+Object Oriented Programming in Java 
+
+
+Define the functions with proper access specifier and create the instance as 
+
+class obj=new class();
+
+private -> The scope is restricted to within the class only.
+
+protected -> The scope is restricted to within the class and its derived classes. 
+
+public -> No restrictions entire program it can be accessible. 
+
+_________________________________________________________________________
+
+this keyword : If you want to identify the members of a class that can be done by using the this keyword. this keyword provides the functionality to the members of a class.
+
+_________________________________________________________________________________
+
+
+Constructors : A constructor is a special member that which is used initialize the member variables of a class. It is special because it has the same name as that of class name. 
+
+Rules : 
+
+It will not return any value.
+It will not contain any return type.
+It is invoked automatically when the instance/object of the class is created. 
+
+A constructor can be overloaded. 
+
+__________________________________________________________________
+
+
+Static functions are the functions that which are to be invoked automatically without refering the class name. 
+
+static variables are the variables that which are used to maintain common values irrespective of objects you are using. 
+
+
+
+
