@@ -100,4 +100,9 @@ Unordered list can be specified by using
 <ul>
 </ul>
 
+<div> : Used to divide the page into multiple partitions, then we need the help of <div> 
+
+<div>
+</div> 
+
 
