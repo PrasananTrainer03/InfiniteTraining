@@ -1,0 +1,103 @@
+Web Applications :
+
+These are the applications that which are to be called from various
+places rather than where they are created. 
+
+If you want to make any distribute or robust applications, then we need
+the help of web applications. 
+
+You can create web applications in 2 ways as 
+
+
+	(i) Scripting Languages
+
+	(ii) Programming Langauges 
+
+Difference between scripting and programming languages : 
+__________________________________________________________
+
+
+	Scripting languages are languages that which are interpreted, 
+during runtime they takes lot of time to execute. 
+
+	Programming languages are languages that which are compiled first, 
+	during runtime they takes very less time to execute. 
+
+In Web applications, we can implement both client-side/server-side scripting
+
+Client-Side Scripting : 
+________________________
+
+	-> Enables you to access the application from the client system
+
+	-> No Network traffic
+
+	-> Execution will be faster 
+
+Server-Side Scripting : 
+
+	-> Enables you to access the application from the server
+
+	-> Network traffic is high
+
+	-> A bit slower. 
+
+*** Any intranet based application w.r.t. No Security, please opt for client-side scripting ***
+
+*** Any internet based application w.r.t. Min. security, please opt for both client-side/server-side scripting ***
+*** Any internet based application w.r.t. High security please opt for server-side scripting ***
+
+HTML (HyperText Markup Langauge) 
+
+Which used to create any sample web pages. 
+
+To start with html, use 
+
+<html>
+</html> 
+
+
+<head>
+</head> : Used to define the global content for the given page. 
+
+<title> </title> : Used to display heading on title bar. 
+
+<body>
+</body> : Used to display the actual content for the given page. 
+
+<p>
+</p> : Used to start with new paragraph. 
+
+<pre> : Used to define the text w.r.t. Predefined format. 
+
+To represent data w.r.t. Definition and answers, we need the help of
+
+<dl>
+</dl> : Definition Language 
+
+
+<dt>
+</dt> : Definition Term 
+
+<dd>
+</dd> : Definition Description 
+
+Anchor tag : 
+
+used to link the given page with another page. 
+
+<a href="target_page">Display Text</a> 
+
+Order List and Unordered List
+
+
+<ol> 
+
+Each item in OL to be added in <li> 
+
+Unordered list can be specified by using 
+
+<ul>
+</ul>
+
+

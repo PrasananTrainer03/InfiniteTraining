@@ -1,0 +1,27 @@
+1) Create the Below class
+
+	LeaveDetails
+	_____________
+	
+	leaveId (int)
+	employId(Int)
+	leaveType(ENUM) (EL or PL or ML)
+	leaveStatus(ENUM (PENDING, APPROVED, REJECTED)
+	leaveStartDate (date)
+	leaveEndDate (date)
+	noOfDays (int)
+	leaveReason (string)
+	managerComments(string)
+
+Perform CRUD operations using Collections
+
+Validations :
+_____________
+noOfDays to be calculated automatically as endDate-startDate in days.
+
+leaveStartDate cannot be yesterday's date
+
+leaveEndDate cannot be yesterdays's Date
+
+leaveStartDate cannot be greater than leaveEndDate 
+
