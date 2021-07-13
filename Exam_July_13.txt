@@ -34,3 +34,16 @@ leaveStartDate cannot be greater than leaveEndDate
 4) BAL Class (LeaveDetailsBAL) 
 5) MainClass (LeaveDetailsMain) 
 
+classifications : 
+_________________
+
+File Structure 10 marks 
+Exception 10 Marks
+DAO class 30 marks
+Validations 20 marks
+Main File and Execution 30 marks 
+
+
+
+
+
