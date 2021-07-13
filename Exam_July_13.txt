@@ -8,6 +8,7 @@
 	leaveType(ENUM) (EL or PL or ML)
 	leaveStatus(ENUM (PENDING, APPROVED, REJECTED)
 	leaveStartDate (date)
+	leaveAppliedOn (date)
 	leaveEndDate (date)
 	noOfDays (int)
 	leaveReason (string)
@@ -17,6 +18,8 @@ Perform CRUD operations using Collections
 
 Validations :
 _____________
+
+leaveAppliedOn will be today's date
 noOfDays to be calculated automatically as endDate-startDate in days.
 
 leaveStartDate cannot be yesterday's date
