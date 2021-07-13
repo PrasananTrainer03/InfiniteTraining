@@ -17,7 +17,7 @@
 Perform CRUD operations using Collections (AddRecord, SearchRecord,
 	ShowAll, UpdateRecord,DeleteRecord,WriteToFile,ReadFromFile)
 
-Validations (Write in DAO Only) :
+Validations (Write in BAL Only) :
 _____________
 
 leaveAppliedOn will be today's date
