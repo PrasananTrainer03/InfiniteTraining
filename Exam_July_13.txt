@@ -6,25 +6,31 @@
 	leaveId (int)
 	employId(Int)
 	leaveType(ENUM) (EL or PL or ML)
-	leaveStatus(ENUM (PENDING, APPROVED, REJECTED)
+	leaveStatus(ENUM) (PENDING, APPROVED, REJECTED)
 	leaveStartDate (date)
-	leaveAppliedOn (date)
 	leaveEndDate (date)
+	leaveAppliedOn (date)
 	noOfDays (int)
 	leaveReason (string)
 	managerComments(string)
 
-Perform CRUD operations using Collections
+Perform CRUD operations using Collections (AddRecord, SearchRecord,
+	ShowAll, UpdateRecord,DeleteRecord,WriteToFile,ReadFromFile)
 
-Validations :
+Validations (Write in DAO Only) :
 _____________
 
 leaveAppliedOn will be today's date
+leaveStatus by default PENDING
 noOfDays to be calculated automatically as endDate-startDate in days.
-
 leaveStartDate cannot be yesterday's date
-
 leaveEndDate cannot be yesterdays's Date
-
 leaveStartDate cannot be greater than leaveEndDate 
+
+
+1) EntityClass (LeaveDetails)
+2) ExceptionClass (LeaveDetailsException) 
+3) DAO Class (LeaveDetailsDAO)
+4) BAL Class (LeaveDetailsBAL) 
+5) MainClass (LeaveDetailsMain) 
 
