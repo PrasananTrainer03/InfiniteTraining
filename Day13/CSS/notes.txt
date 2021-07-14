@@ -1,0 +1,12 @@
+The wrap attribute refers to how the user input reacts when it reaches the end of each row in the text field. Wrapping can be defined using one of three values:
+
+    soft
+    hard
+    off
+
+"Soft" forces the words to wrap once inside the textarea but once the form is submitted, the words will no longer appear as such, and line breaks and spacing are not maintained.
+
+"Hard" wraps the words inside the text box and places line breaks at the end of each line so that when the form is submitted the text will transfer as it appears in the field, including line breaks and spacing.
+
+"Off" sets a textarea to ignore all wrapping and places the text into one ongoing line.
+
