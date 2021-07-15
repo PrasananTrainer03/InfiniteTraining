@@ -23,3 +23,17 @@ leaveAppliedON Today's Date Default
 leaveType EL by Default
 Calculate No.of Days
 managercomments dont insert right now
+
+Display leaveHistory of Employee
+
+select * from Leave_history where emp_Id=1000
+
+Display the Pending leaveHistory of Employee 
+
+Select * from Leave_History where emp_ID=1000 and Leave_STATUS='PENDING'
+
+Select * from leave_History where leave_Id=1
+
+
+
+
