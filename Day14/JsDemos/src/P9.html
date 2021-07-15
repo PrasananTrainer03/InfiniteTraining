@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	span {
+		color:red;
+	}
+</style>
+<script>
+	function sum() {
+		if (frmCalc.firstNo.value=="") {
+			document.getElementById("err1").innerHTML="please enter FirstNo...";
+			return;
+		} else {
+			document.getElementById("err1").innerHTML="";
+		}
+		if (frmCalc.secondNo.value=="") {
+			document.getElementById("err2").innerHTML="please enter SecondNo...";
+			return;
+		} else {
+			document.getElementById("err2").innerHTML="";
+		}
+		var firstNo,secondNo,result;
+		firstNo=parseInt(frmCalc.firstNo.value);
+		secondNo=parseInt(frmCalc.secondNo.value);
+		result = firstNo+secondNo;
+		frmCalc.result.value=result;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="frmCalc">
+		<table border="3" align="center">
+		<tr>
+			<th colspan="2">
+				Calculation Form
+			</th>
+		</tr>
+			<tr>
+				<th>First No</th>
+				<td>
+					<input type="number" name="firstNo" />
+					<span id="err1"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Second No</th>
+				<td>
+					<input type="number" name="secondNo" /> 
+					<span id="err2"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Result</th>
+				<td>
+					<input type="number" name="result" />
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="button" onclick="sum()" value="Sum" /> 
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Sub" /> 
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Mult" />
+				</th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

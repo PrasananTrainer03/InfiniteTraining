@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var sname;
+		sname=frmData.sname.value;
+		// alert(sname);
+		document.getElementById("result").innerHTML="Name is  " +sname;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="frmData">
+		Name : 
+		<input type="text" name="sname" /> <br/><br/>
+		<input type="button" onclick="show()" value="Show" />
+	</form>
+	<span id="result"></span>
+</body>
+</html>

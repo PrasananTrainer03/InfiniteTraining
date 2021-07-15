@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		if (frmDemo.chkStatus.checked==true) {
+			document.getElementById("result").innerHTML="Present";
+		} else {
+			document.getElementById("result").innerHTML="Absent";
+		}
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="frmDemo">
+		<center>
+			Status : 
+			<input type="checkbox" name="chkStatus" onchange="show()" />
+		</center>
+	</form>
+	<span id="result"></span>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var color = frmData.color.value;
+		document.bgColor=color;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="frmData" onchange="show()">
+		Select Color : 
+		<select name="color">
+			<option value="Red">Red</option>
+			<option value="Blue">Blue</option>
+			<option value="Green">Green</option>
+		</select>
+	</form>
+</body>
+</html>
