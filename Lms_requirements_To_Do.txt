@@ -1,0 +1,25 @@
+--create the table
+CREATE TABLE LEAVE_HISTORY
+(
+LEAVE_ID INT PRIMARY KEY AUTO_INCREMENT,
+LEAVE_NO_OF_DAYS INT,
+LEAVE_MNGR_COMMENTS CHAR(200),
+EMP_ID INT,
+LEAVE_START_DATE DATE NOT NULL, 
+LEAVE_END_DATE DATE NOT NULL,
+LEAVE_TYPE ENUM ('EL' ) DEFAULT ,
+LEAVE_STATUS ENUM ('PENDING','APPROVED','DENIED') DEFAULT 'PENDING',
+LEAVE_REASON  CHAR(50) NOT NULL,
+LEAVE_APPLIED_ON  DATE NOT NULL,
+FOREIGN KEY(EMP_ID) REFERENCES EMPLOYEE(EMP_ID)
+);
+
+ApplyLeave : 
+_____________
+
+LeaveId autoincrement dont insert
+read EmployId, LeaveStartDate,LeaveEndDate,LeaveReason 
+leaveAppliedON Today's Date Default
+leaveType EL by Default
+Calculate No.of Days
+managercomments dont insert right now
