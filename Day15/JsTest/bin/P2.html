@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var message = "Welcome to Infinite Java Training...From Prasanna";
+		var len = message.length;
+		var result="";
+		result+="Length of Given String is  " +len+ "<br/>";
+		result+="First Occurrence of char 'o' " +message.indexOf('o') + "<br/>";
+		result+="Char at 5th position  " +message.charAt(5) + "<br/>";
+		result+="Lower Case String  " +message.toLowerCase() + "<br/>";
+		result+="Upper Case String  " +message.toUpperCase() + "<br/>";
+		result+="Replaced String  " +message.replace("Java","J2EE") + "<br/>";
+		document.getElementById("result").innerHTML=result;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="show()">
+	<span id="result"></span>
+</body>
+</html>

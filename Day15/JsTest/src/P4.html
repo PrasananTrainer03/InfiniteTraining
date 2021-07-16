@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show() {
+	    var today = new Date();
+	    var fullyear = today.getFullYear();
+	    var future = new Date("September 3, " + fullyear);
+	    var diff = future.getTime() - today.getTime();
+	    // Number of milliseconds
+	    var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+	    // Convert to days
+	    var str = "Only <u>" + days + "</u> days left 'till Feb 15! ";
+	    document.write(str + "<br />");
+	   
+}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		show();
+	</script>
+</body>
+</html>
