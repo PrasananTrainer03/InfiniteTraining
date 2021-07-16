@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+NoOfQuestions = 5;// Edit this value before adding questions 
+Questions = Array(NoOfQuestions);
+Answers = new Array(NoOfQuestions);
+Answer=0;
+Marks=0;
+CorrectAnswers = new Array(NoOfQuestions);
+
+for (var i = 0 ; i < NoOfQuestions ; i++)
+{
+    Answers[i] = new Array(4);
+}
+
+QuestionNo=0;
+
+Questions [0] = "The father of C,C++ & Unix is";
+Answers[0][0] = "Forouzan";
+Answers[0][1] = "Dennis Ritchie";
+Answers[0][2] = "Andrew Tenenbaum";
+Answers[0][3] = "Dijkstra";
+CorrectAnswers[0] = 2;
+
+
+Questions [1] = "The Open source among following is  ";
+Answers[1][0] = "Windows XP";
+Answers[1][1] = "Mac OS X";
+Answers[1][2] = "Linux Ubuntu";
+Answers[1][3] = "Sun Solaris";
+CorrectAnswers[1] = 4;
+
+
+Questions [2] = "Pancake Sorting Algorithm and BASIC Interpreter was written by";
+Answers[2][0] = "Steve Jobs";
+Answers[2][1] = "Steve William";
+Answers[2][2] = "Bill Gates";
+Answers[2][3] = "Jerry yang";
+CorrectAnswers[2] = 3;
+
+
+Questions [3] = "Larry page and Sergei Brinn are Co-Founders of ";
+Answers[3][0] = "Yahoo";
+Answers[3][1] = "Rediff";
+Answers[3][2] = "Google";
+Answers[3][3] = "Apple";
+CorrectAnswers[3] = 3;
+
+
+Questions [4] = "The first computer to defeat Chess Grandmaster was";
+Answers[4][0] = "Chess Zeus";
+Answers[4][1] = "Armageddon";
+Answers[4][2] = "White Knight";
+Answers[4][3] = "Deep Blue";
+CorrectAnswers[4] = 4;
+
+function AnswerChoosed(Ans)
+{
+	Answer = Ans;
+	Choosed = true;
+}
+
+
+function load() {
+	document.getElementById("Question").innerHTML = "(" + (QuestionNo + 1)+") : " + Questions[QuestionNo];
+	document.getElementById("Option0").innerHTML = "(a) " + Answers[QuestionNo][0];
+	document.getElementById("Option1").innerHTML = "(b) " + Answers[QuestionNo][1];
+	document.getElementById("Option2").innerHTML = "(c) " + Answers[QuestionNo][2];
+	document.getElementById("Option3").innerHTML = "(d) " + Answers[QuestionNo][3];		
+	document.getElementById("Opt1").checked = false;	
+	document.getElementById("Opt2").checked = false;	
+	document.getElementById("Opt3").checked = false;	
+	document.getElementById("Opt4").checked = false;
+
+}
+function NextQuestion() {
+	if(Answer == CorrectAnswers[QuestionNo])
+	{
+		Marks++;
+	}
+	QuestionNo++;
+	if (QuestionNo >= 5) {
+		alert("Exam Over...Your Score is " +Marks);
+		QuestionNo=4;
+	}
+	load();
+}
+</script>
+<style>
+div.MainForm 
+{
+    background : none repeat scroll 0 0 #3366CC;
+    border : 5px solid gray;
+    color : white;
+    font-family : "DejaVu Sans",Times,Serif;
+    font-weight : bold;
+    margin : 10px auto;
+    padding : 10px;
+   /* text-align : center;*/
+    width : 400px;
+}
+p.title 
+{
+    color: #33CCFF;
+    font-family: "DejaVu Sans";
+    font-size: 60px;
+    font-weight: bold;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="load()">
+		<p class = "title">Online Exam @ Infinite</p>
+		<div class = "MainForm" align = "Left" >		
+			<br/><br/>
+			<form name = "ExamForm" id = "inputForm1" action = "" method = "GET">
+					<p id = "Question">
+						This is the question
+					</p>
+					<input type = "radio" name = "OptionR" id = "Opt1" onClick = "AnswerChoosed(1)"/>
+					<label id = "Option0" name = "Name1" >1st Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt2" onClick = "AnswerChoosed(2)"/> 
+					<label id = "Option1">2nd Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt3" onClick = "AnswerChoosed(3)"/> 
+					<label id = "Option2">3rd Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt4" onClick = "AnswerChoosed(4)"/> 
+					<label id = "Option3">4th Option</label><br />
+					<br />
+					<br />
+					<input type = "button" value = "Next" onClick = "NextQuestion()">
+			</form>		
+		</div> 
+	</body>
+</html>
