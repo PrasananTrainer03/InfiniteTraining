@@ -28,11 +28,18 @@ Display leaveHistory of Employee
 
 select * from Leave_history where emp_Id=1000
 
+ returns List<LeaveHistory>
+
 Display the Pending leaveHistory of Employee 
 
 Select * from Leave_History where emp_ID=1000 and Leave_STATUS='PENDING'
 
-Select * from leave_History where leave_Id=1
+ return List<LeaveHistory>
+
+Select * from leave_History where leave_Id=1 
+return LeaveHistory 
+
+
 
 
 
