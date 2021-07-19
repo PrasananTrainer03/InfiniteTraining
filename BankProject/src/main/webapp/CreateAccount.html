@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="get" action="CreateAccountServlet">
+		<center>
+			First Name :
+			<input type="text" name="firstName" /> <br/><br/>
+			Last Name : 
+			<input type="text" name="lastName" /> <br/><br/> 
+			City : 
+			<input type="text" name="city" /> <br/><br/> 
+			State : 
+			<input type="text" name="state" /> <br/><br/> 
+			Amount : 
+			<input type="text" name="amount" /> <br/><br/> 
+			CheqFacil : 
+			<select name="cheqFacil">
+				<option value="Yes">Yes</option>
+				<option value="No">No</option>
+			</select> <br /><br/>
+			Account Type : 
+			<select name="accountType">
+				<option value="Savings">Savings</option>
+				<option value="Current">Current</option>
+			</select>
+			<br/><br/>
+			<input type="submit" value="Create Account" />
+		</center>
+	</form>
+</body>
+</html>
