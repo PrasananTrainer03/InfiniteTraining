@@ -1,0 +1,219 @@
+04-Mar-2021 09:47:37.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.42
+04-Mar-2021 09:47:37.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:29:04 UTC
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.42.0
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+04-Mar-2021 09:47:37.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+04-Mar-2021 09:47:37.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Mar-2021 09:47:37.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-8.5.42
+04-Mar-2021 09:47:37.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-8.5.42
+04-Mar-2021 09:47:37.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-8.5.42\conf\logging.properties
+04-Mar-2021 09:47:37.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Mar-2021 09:47:37.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Mar-2021 09:47:37.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Mar-2021 09:47:37.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Mar-2021 09:47:37.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-8.5.42
+04-Mar-2021 09:47:37.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-8.5.42
+04-Mar-2021 09:47:37.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-8.5.42\temp
+04-Mar-2021 09:47:37.152 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+04-Mar-2021 09:47:37.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-Mar-2021 09:47:37.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Mar-2021 09:47:37.353 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+04-Mar-2021 09:47:38.435 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 09:47:39.033 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Mar-2021 09:47:39.146 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 09:47:39.151 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Mar-2021 09:47:39.152 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7166 ms
+04-Mar-2021 09:47:39.284 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Mar-2021 09:47:39.284 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.42
+04-Mar-2021 09:47:39.426 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\CmsNewProject.war]
+04-Mar-2021 09:47:50.237 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 09:47:56.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\CmsNewProject.war] has finished in [16,622] ms
+04-Mar-2021 09:47:56.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\docs]
+04-Mar-2021 09:47:56.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\docs] has finished in [82] ms
+04-Mar-2021 09:47:56.137 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\examples]
+04-Mar-2021 09:48:00.235 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\examples] has finished in [4,099] ms
+04-Mar-2021 09:48:00.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\host-manager]
+04-Mar-2021 09:48:00.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\host-manager] has finished in [85] ms
+04-Mar-2021 09:48:00.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\manager]
+04-Mar-2021 09:48:00.441 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\manager] has finished in [115] ms
+04-Mar-2021 09:48:00.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\ROOT]
+04-Mar-2021 09:48:00.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\ROOT] has finished in [63] ms
+04-Mar-2021 09:48:00.543 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 09:48:00.565 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 09:48:00.576 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21424 ms
+04-Mar-2021 09:50:00.696 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war]
+04-Mar-2021 09:50:02.145 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 09:50:04.473 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [3,776] ms
+04-Mar-2021 10:01:05.908 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestHello]
+04-Mar-2021 10:01:06.123 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war]
+04-Mar-2021 10:01:07.373 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 10:01:08.401 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [2,278] ms
+04-Mar-2021 10:15:28.919 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestHello]
+04-Mar-2021 10:15:28.986 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war]
+04-Mar-2021 10:15:30.063 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 10:15:30.999 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [2,014] ms
+04-Mar-2021 10:16:09.372 SEVERE [http-nio-8080-exec-20] org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo MessageBodyWriter not found for media type=application/json, type=class java.lang.Integer, genericType=int.
+04-Mar-2021 10:18:11.116 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestHello]
+04-Mar-2021 10:18:11.158 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war]
+04-Mar-2021 10:18:12.153 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 10:18:13.326 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [2,168] ms
+04-Mar-2021 10:35:34.092 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmpNew.war]
+04-Mar-2021 10:35:36.510 INFO [localhost-startStop-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 10:35:37.527 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmpNew.war] has finished in [3,435] ms
+04-Mar-2021 11:27:49.604 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+04-Mar-2021 11:27:53.664 INFO [localhost-startStop-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:27:57.038 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [7,439] ms
+04-Mar-2021 11:28:30.568 SEVERE [http-nio-8080-exec-31] org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo MessageBodyWriter not found for media type=application/json, type=class [Lcom.hexaware.trainer.model.Employ;, genericType=class [Lcom.hexaware.trainer.model.Employ;.
+04-Mar-2021 11:33:47.337 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestEmployCrud]
+04-Mar-2021 11:34:06.922 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [RestEmployCrud] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2021 11:34:06.924 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [RestEmployCrud] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:34:06.945 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+04-Mar-2021 11:34:08.407 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1034)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:34:08.570 INFO [localhost-startStop-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:34:09.660 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [2,715] ms
+04-Mar-2021 11:35:03.550 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 11:35:03.734 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 11:35:03.883 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Mar-2021 11:35:05.415 WARNING [localhost-startStop-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CmsNewProject] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:87)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:87)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:932)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1053)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:35:05.473 WARNING [localhost-startStop-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [RestEmpNew] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2021 11:35:05.474 WARNING [localhost-startStop-9] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [RestEmpNew] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:35:05.756 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 11:35:05.759 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 11:35:05.775 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 11:35:05.779 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 11:35:17.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.42
+04-Mar-2021 11:35:17.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:29:04 UTC
+04-Mar-2021 11:35:17.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.42.0
+04-Mar-2021 11:35:17.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Mar-2021 11:35:17.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Mar-2021 11:35:17.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Mar-2021 11:35:17.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+04-Mar-2021 11:35:17.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+04-Mar-2021 11:35:17.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-8.5.42
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-8.5.42
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-8.5.42\conf\logging.properties
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Mar-2021 11:35:17.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Mar-2021 11:35:17.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Mar-2021 11:35:17.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-8.5.42
+04-Mar-2021 11:35:17.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-8.5.42
+04-Mar-2021 11:35:17.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-8.5.42\temp
+04-Mar-2021 11:35:17.083 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+04-Mar-2021 11:35:17.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-Mar-2021 11:35:17.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Mar-2021 11:35:17.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+04-Mar-2021 11:35:17.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 11:35:17.730 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Mar-2021 11:35:17.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 11:35:17.769 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Mar-2021 11:35:17.779 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2687 ms
+04-Mar-2021 11:35:17.858 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Mar-2021 11:35:17.858 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.42
+04-Mar-2021 11:35:17.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\CmsNewProject.war]
+04-Mar-2021 11:35:22.789 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:35:25.062 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\CmsNewProject.war] has finished in [7,139] ms
+04-Mar-2021 11:35:25.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+04-Mar-2021 11:35:29.605 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:35:30.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [5,772] ms
+04-Mar-2021 11:35:30.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmpNew.war]
+04-Mar-2021 11:35:33.528 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:35:36.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmpNew.war] has finished in [5,357] ms
+04-Mar-2021 11:35:36.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war]
+04-Mar-2021 11:35:37.368 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:35:38.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [1,865] ms
+04-Mar-2021 11:35:38.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\docs]
+04-Mar-2021 11:35:38.351 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\docs] has finished in [199] ms
+04-Mar-2021 11:35:38.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\examples]
+04-Mar-2021 11:35:39.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\examples] has finished in [1,005] ms
+04-Mar-2021 11:35:39.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\host-manager]
+04-Mar-2021 11:35:39.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\host-manager] has finished in [74] ms
+04-Mar-2021 11:35:39.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\manager]
+04-Mar-2021 11:35:39.497 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\manager] has finished in [64] ms
+04-Mar-2021 11:35:39.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.42\webapps\ROOT]
+04-Mar-2021 11:35:39.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.42\webapps\ROOT] has finished in [68] ms
+04-Mar-2021 11:35:39.585 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Mar-2021 11:35:39.623 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Mar-2021 11:35:39.632 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21849 ms
+04-Mar-2021 11:35:50.927 SEVERE [http-nio-8080-exec-7] org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo MessageBodyWriter not found for media type=application/json, type=class [Lcom.hexaware.trainer.model.Employ;, genericType=class [Lcom.hexaware.trainer.model.Employ;.
+04-Mar-2021 11:37:49.518 SEVERE [http-nio-8080-exec-8] org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo MessageBodyWriter not found for media type=application/json, type=class [Lcom.hexaware.trainer.model.Employ;, genericType=class [Lcom.hexaware.trainer.model.Employ;.
+04-Mar-2021 11:41:30.365 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestEmployCrud]
+04-Mar-2021 11:42:46.366 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [RestEmployCrud] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2021 11:42:46.368 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [RestEmployCrud] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:42:46.397 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+04-Mar-2021 11:42:48.992 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:42:49.402 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1034)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+04-Mar-2021 11:42:50.509 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [4,112] ms
+04-Mar-2021 11:45:01.307 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestEmployCrud]
+04-Mar-2021 11:45:41.439 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+04-Mar-2021 11:45:42.414 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.skife.jdbi.cglib.proxy.MethodProxy$FastClassInfo]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.skife.jdbi.cglib.proxy.MethodProxy$FastClassInfo]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1185)
+		at org.skife.jdbi.cglib.proxy.MethodProxy.init(MethodProxy.java:73)
+		at org.skife.jdbi.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:226)
+		at org.skife.jdbi.v2.sqlobject.SqlObject.invoke(SqlObject.java:206)
+		at org.skife.jdbi.v2.sqlobject.SqlObject$3.intercept(SqlObject.java:127)
+		at org.skife.jdbi.v2.sqlobject.CloseInternalDoNotUseThisClass$$EnhancerByCGLIB$$b5ea3e33.finalize(<generated>)
+		at java.lang.System$2.invokeFinalize(System.java:1270)
+		at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102)
+		at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:217)
+04-Mar-2021 11:45:44.921 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2021 11:45:46.156 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [4,717] ms

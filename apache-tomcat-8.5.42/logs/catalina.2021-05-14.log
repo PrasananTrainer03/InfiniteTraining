@@ -1,0 +1,108 @@
+14-May-2021 12:31:03.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.42
+14-May-2021 12:31:03.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:29:04 UTC
+14-May-2021 12:31:03.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.42.0
+14-May-2021 12:31:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2021 12:31:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-May-2021 12:31:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-May-2021 12:31:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_271\jre
+14-May-2021 12:31:03.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_271-b09
+14-May-2021 12:31:03.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-May-2021 12:31:03.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.42
+14-May-2021 12:31:03.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.42
+14-May-2021 12:31:03.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.42\conf\logging.properties
+14-May-2021 12:31:03.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2021 12:31:03.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2021 12:31:03.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2021 12:31:03.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-May-2021 12:31:03.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.42
+14-May-2021 12:31:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.42
+14-May-2021 12:31:03.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.42\temp
+14-May-2021 12:31:03.150 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+14-May-2021 12:31:03.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14-May-2021 12:31:03.157 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-May-2021 12:31:03.263 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+14-May-2021 12:31:04.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-May-2021 12:31:05.535 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-May-2021 12:31:05.598 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-May-2021 12:31:05.606 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-May-2021 12:31:05.609 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5191 ms
+14-May-2021 12:31:05.786 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2021 12:31:05.787 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.42
+14-May-2021 12:31:05.946 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\CmsNewProject.war]
+14-May-2021 12:31:12.368 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:16.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\CmsNewProject.war] has finished in [10,076] ms
+14-May-2021 12:31:16.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war]
+14-May-2021 12:31:24.919 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:26.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war] has finished in [10,731] ms
+14-May-2021 12:31:26.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war]
+14-May-2021 12:31:32.128 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:33.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestEmployCrud.war] has finished in [6,907] ms
+14-May-2021 12:31:33.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestEmpNew.war]
+14-May-2021 12:31:38.569 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:40.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestEmpNew.war] has finished in [6,493] ms
+14-May-2021 12:31:40.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestHello.war]
+14-May-2021 12:31:41.578 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:43.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestHello.war] has finished in [2,724] ms
+14-May-2021 12:31:43.261 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestHelloWorld.war]
+14-May-2021 12:31:54.425 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:31:56.259 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestHelloWorld.war] has finished in [12,998] ms
+14-May-2021 12:31:56.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\docs]
+14-May-2021 12:31:56.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\docs] has finished in [175] ms
+14-May-2021 12:31:56.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\examples]
+14-May-2021 12:31:59.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\examples] has finished in [2,855] ms
+14-May-2021 12:31:59.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager]
+14-May-2021 12:31:59.626 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager] has finished in [281] ms
+14-May-2021 12:31:59.627 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\manager]
+14-May-2021 12:31:59.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\manager] has finished in [142] ms
+14-May-2021 12:31:59.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT]
+14-May-2021 12:31:59.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT] has finished in [170] ms
+14-May-2021 12:31:59.959 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2021 12:31:59.987 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-May-2021 12:31:59.992 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 54382 ms
+14-May-2021 12:32:40.048 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestDbEmp.war]
+14-May-2021 12:32:48.304 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:32:52.636 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestDbEmp.war] has finished in [12,588] ms
+14-May-2021 12:46:55.566 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/RestDbEmp]
+14-May-2021 12:46:55.674 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [RestDbEmp] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-May-2021 12:46:55.678 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [RestDbEmp] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+14-May-2021 12:47:05.813 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\RestDbEmp.war]
+14-May-2021 12:47:13.359 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:47:16.543 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\RestDbEmp.war] has finished in [10,731] ms
+14-May-2021 12:56:57.844 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\CalcServiceDemo.war]
+14-May-2021 12:57:08.097 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 12:57:10.758 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\CalcServiceDemo.war] has finished in [12,914] ms
+14-May-2021 17:29:41.517 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HibernateRestExample]
+14-May-2021 17:29:41.810 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war]
+14-May-2021 17:29:58.106 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 17:30:00.469 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war] has finished in [18,658] ms
+14-May-2021 17:30:11.008 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HibernateRestExample]
+14-May-2021 17:30:11.122 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war]
+14-May-2021 17:30:27.107 INFO [localhost-startStop-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2021 17:30:30.438 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\apache-tomcat-8.5.42\webapps\HibernateRestExample.war] has finished in [19,316] ms
+14-May-2021 17:30:38.015 INFO [http-nio-8080-exec-17] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.1.Final}
+14-May-2021 17:30:38.023 INFO [http-nio-8080-exec-17] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+14-May-2021 17:30:39.744 INFO [http-nio-8080-exec-17] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+14-May-2021 17:30:40.205 WARN [http-nio-8080-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-May-2021 17:30:40.398 INFO [http-nio-8080-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+14-May-2021 17:30:40.405 INFO [http-nio-8080-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=prasanna, password=****}
+14-May-2021 17:30:40.408 INFO [http-nio-8080-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-May-2021 17:30:40.425 INFO [http-nio-8080-exec-17] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+14-May-2021 17:30:41.359 INFO [http-nio-8080-exec-17] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+14-May-2021 17:30:45.262 INFO [http-nio-8080-exec-17] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+14-May-2021 17:30:50.698 WARN [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-May-2021 17:30:50.699 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+14-May-2021 17:30:50.704 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=prasanna, password=****}
+14-May-2021 17:30:50.705 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-May-2021 17:30:50.706 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+14-May-2021 17:30:50.798 INFO [http-nio-8080-exec-19] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+14-May-2021 17:30:50.896 INFO [http-nio-8080-exec-19] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+14-May-2021 17:37:31.297 WARN [http-nio-8080-exec-23] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+14-May-2021 17:37:31.306 INFO [http-nio-8080-exec-23] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+14-May-2021 17:37:31.308 INFO [http-nio-8080-exec-23] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=prasanna, password=****}
+14-May-2021 17:37:31.309 INFO [http-nio-8080-exec-23] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+14-May-2021 17:37:31.311 INFO [http-nio-8080-exec-23] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+14-May-2021 17:37:31.529 INFO [http-nio-8080-exec-23] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect

@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:34 +0530] "GET /CmsNewProject/webapi/customer/undefined/undefined HTTP/1.1" 200 1
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:34 +0530] "GET /CmsNewProject/webapi/customer/Rahul/Rahul1997@ HTTP/1.1" 200 1
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:34 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:35 +0530] "GET /CmsNewProject/webapi/customer/name/Rahul HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [01/Feb/2021:19:15:40 +0530] "GET /CmsNewProject/webapi/orders/customerpending/1 HTTP/1.1" 200 168
