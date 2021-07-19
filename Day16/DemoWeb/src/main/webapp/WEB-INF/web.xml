@@ -2,7 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   <display-name>DemoWeb</display-name>
   <welcome-file-list>
-    <welcome-file>name.html</welcome-file>
+    <welcome-file>employInsert.html</welcome-file>
   </welcome-file-list>
   <servlet>
     <description></description>
@@ -53,5 +53,25 @@
   <servlet-mapping>
     <servlet-name>EmployShowAllServet</servlet-name>
     <url-pattern>/EmployShowAllServet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmploySearchServlet</display-name>
+    <servlet-name>EmploySearchServlet</servlet-name>
+    <servlet-class>com.java.infinite.EmploySearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmploySearchServlet</servlet-name>
+    <url-pattern>/EmploySearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmployInsertServlet</display-name>
+    <servlet-name>EmployInsertServlet</servlet-name>
+    <servlet-class>com.java.infinite.EmployInsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployInsertServlet</servlet-name>
+    <url-pattern>/EmployInsertServlet</url-pattern>
   </servlet-mapping>
 </web-app>
