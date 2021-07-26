@@ -1,0 +1,91 @@
+
+
+JSTL (Java Standard Tag Libraries) 
+
+Allows you to write Java code by using Scripting Tags.
+
+In Java, we have
+
+Statements
+
+Control Structures 
+
+Conditions
+
+Formatting tools
+
+JDBC 
+
+All the things we can write by using JSTL. 
+
+For those things, we have 
+
+1) Core Tags
+
+2) Formatting Tags
+
+3) JDBC Tags
+
+Steps to Configure JSTL 
+________________________
+
+1) Create a dynamic Project and add the relevant jar files to them.
+
+First, we need to work with JSTL core tags. 
+
+To deal with JSTL, please perform the below things. 
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>    
+
+To Print, any message.
+
+<c:out value="message" /> 
+
+<c:out> : used to display any value or message. 
+
+To Delare  and assign value, we have to use set 
+
+<c:set > : Used to declare and assign a value
+
+To Display value of a variable, we need to prefix $ symbol. 
+
+How to implement JDBC in the JSTL. 
+
+
+For JDBC, we need to import core tag and Sql Tag
+
+This is the below syntax for SQL 
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>    
+
+For database, we need to use 
+
+url
+driver
+user
+pwd
+
+You can define the information as 
+
+	<sql:setDataSource var="conn"
+		driver="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/sqlpractice"
+		user="root"
+		password="root"
+	/>
+
+<sql:query> For select statements
+
+<sql:update> for Insert/Update and Delete Statements.
+
+
+
+
+
+
+
+
+
+
+
+
