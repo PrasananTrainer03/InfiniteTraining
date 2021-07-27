@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://EmployServiceDemo.infinite" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://EmployServiceDemo.infinite" xmlns:intf="http://EmployServiceDemo.infinite" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://EmployServiceDemo.infinite" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="showEmploy">
+    <complexType/>
+   </element>
+   <element name="showEmployResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="showEmployReturn" type="impl:Employ"/>
+     </sequence>
+    </complexType>
+   </element>
+   <complexType name="Employ">
+    <sequence>
+     <element name="basic" type="xsd:int"/>
+     <element name="dept" nillable="true" type="xsd:string"/>
+     <element name="desig" nillable="true" type="xsd:string"/>
+     <element name="empno" type="xsd:int"/>
+     <element name="gender" nillable="true" type="xsd:string"/>
+     <element name="name" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <element name="searchEmploy">
+    <complexType>
+     <sequence>
+      <element name="empno" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="searchEmployResponse">
+    <complexType>
+     <sequence>
+      <element name="searchEmployReturn" type="impl:Employ"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="searchEmployResponse">
+
+      <wsdl:part element="impl:searchEmployResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="showEmployRequest">
+
+      <wsdl:part element="impl:showEmploy" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchEmployRequest">
+
+      <wsdl:part element="impl:searchEmploy" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="showEmployResponse">
+
+      <wsdl:part element="impl:showEmployResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="EmployService">
+
+      <wsdl:operation name="showEmploy">
+
+         <wsdl:input message="impl:showEmployRequest" name="showEmployRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:showEmployResponse" name="showEmployResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchEmploy">
+
+         <wsdl:input message="impl:searchEmployRequest" name="searchEmployRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:searchEmployResponse" name="searchEmployResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="EmployServiceSoapBinding" type="impl:EmployService">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="showEmploy">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="showEmployRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="showEmployResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchEmploy">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="searchEmployRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="searchEmployResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="EmployServiceService">
+
+      <wsdl:port binding="impl:EmployServiceSoapBinding" name="EmployService">
+
+         <wsdlsoap:address location="http://localhost:8080/EmployServiceDemo/services/EmployService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

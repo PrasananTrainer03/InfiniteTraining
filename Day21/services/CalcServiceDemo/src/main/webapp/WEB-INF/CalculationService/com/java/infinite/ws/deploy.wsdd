@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from CalculationService WSDL service -->
+
+  <service name="Calculation" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://ws.infinite.java.com"/>
+      <parameter name="wsdlServiceElement" value="CalculationService"/>
+      <parameter name="schemaQualified" value="http://ws.infinite.java.com"/>
+      <parameter name="wsdlServicePort" value="Calculation"/>
+      <parameter name="className" value="com.java.infinite.ws.Calculation"/>
+      <parameter name="wsdlPortType" value="Calculation"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://ws.infinite.java.com" xmlns:retNS="http://ws.infinite.java.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="sum" qname="operNS:sum" returnQName="retNS:sumReturn" returnType="rtns:int" soapAction="">
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:x" type="tns:int"/>
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:y" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://ws.infinite.java.com" xmlns:retNS="http://ws.infinite.java.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="sub" qname="operNS:sub" returnQName="retNS:subReturn" returnType="rtns:int" soapAction="">
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:x" type="tns:int"/>
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:y" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://ws.infinite.java.com" xmlns:retNS="http://ws.infinite.java.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="mult" qname="operNS:mult" returnQName="retNS:multReturn" returnType="rtns:int" soapAction="">
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:x" type="tns:int"/>
+        <parameter xmlns:pns="http://ws.infinite.java.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:y" type="tns:int"/>
+      </operation>
+      <parameter name="allowedMethods" value="sub mult sum"/>
+
+  </service>
+</deployment>
