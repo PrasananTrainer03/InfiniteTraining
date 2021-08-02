@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+"-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="beanSunil" class="com.java.infinite.multiple.Person">
+		<property name="id" value="1" />
+		<property name="name" value="Sunil Kumar Kallepalli"/>
+		<property name="jobDetails" ref="companyAddress"/>
+		<property name="familyDetails">
+			<bean class="com.java.infinite.multiple.Family">
+				<property name="city" value="Vizag"/>
+				<property name="state" value="AP"/>
+			</bean>
+		</property>
+	</bean>
+	
+		<bean id="beanMalissa" class="com.java.infinite.multiple.Person">
+		<property name="id" value="2" />
+		<property name="name" value="Malissa Rodrigues"/>
+		<property name="jobDetails" ref="companyAddress" />
+		<property name="familyDetails">
+			<bean class="com.java.infinite.multiple.Family">
+				<property name="city" value="Mangalore"/>
+				<property name="state" value="KA"/>
+			</bean>
+		</property>
+	</bean>
+	<bean id="companyAddress"  class="com.java.infinite.multiple.JobDetails">
+				<property name="job" value="Associate Software Engineer"/>
+				<property name="company" value="Infinite Computer Solutions"/>
+				<property name="location" value="Bangalore"/>
+			</bean>
+</beans>

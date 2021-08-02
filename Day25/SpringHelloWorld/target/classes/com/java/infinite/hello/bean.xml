@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+"-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="beanKarthik" class="com.java.infinite.hello.HelloBean">
+		<property name="greeting" value="Good Morning..." />
+	</bean>
+	<bean id="beanSai" class="com.java.infinite.hello.HelloBean">
+		<property name="greeting" value="Good Afternoon..."/>
+	</bean>
+</beans>
