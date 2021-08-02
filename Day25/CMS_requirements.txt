@@ -1,0 +1,18 @@
+1) In CMS, Please perform 
+
+   -> Show Menu
+   -> Search By MenuId
+   -> Add Menu
+   -> Add Customer
+   -> Search By CustomerId
+   -> Add Vendor
+   -> Search By VendorID
+   -> ShowCustomerWallets (select * from wallet where cus_id=?)
+   -> SearchByCustomerWallet (select * from wallet where cus_id=? and Wal_Source='PAYTM')
+
+Please perform all by using JSTL 
+
+Add CSS also to the above code. 
+
+Thank You
+
