@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+ 		<property name="url" value="jdbc:mysql://localhost:3306/practice"/>
+ 		<property name="username" value="root" />
+ 		<property name="password" value="root" />
+	</bean>
+	<bean id="jdbctemp" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds"/>
+	</bean>
+	
+	
+	<bean id="employDao" class="com.java.infinite.jdbc.EmployDao">
+		<property name="jdbcTemplate" ref="jdbctemp"/>
+	</bean>
+</beans>
