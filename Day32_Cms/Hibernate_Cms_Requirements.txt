@@ -1,0 +1,28 @@
+Hibernate Project for CMS
+
+Perform the below operations today
+___________________________________
+
+Menu Table
+
+1) Show Menu
+2) Search By MenuId
+
+Customer Tbale
+
+1) SearchBy CustomerId
+2) Customer Authentication
+3) Add Customer
+
+Vendor Table
+
+1) Search By CustomerId
+2) Vendor Authentication
+3) Add Vendor
+
+Wallet Table
+
+1) Show Wallet (select * from wallet where cus_id=1)
+
+2) Show Wallet Info (Select * from Wallet where Cus_id=1 and WAL_SOURCE=PAYTM)
+
