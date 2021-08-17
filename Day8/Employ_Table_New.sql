@@ -1,8 +1,8 @@
-drop database if exists sqlpractice;
+drop database if exists gltsqlpractice;
 
-create database sqlpractice;
+create database gltsqlpractice;
 
-use sqlpractice;
+use gltsqlpractice;
 
 Create Table Emp
 (

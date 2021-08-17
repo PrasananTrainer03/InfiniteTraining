@@ -33,7 +33,8 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [sno=" + sno + ", name=" + name + ", city=" + city + ", cgp=" + cgp + "]";
+		return String.format("%10s %10s %10s %10s", sno,name,city,cgp);
+		//return "Student [sno=" + sno + ", name=" + name + ", city=" + city + ", cgp=" + cgp + "]";
 	}
 	public Student(int sno, String name, String city, double cgp) {
 		this.sno = sno;

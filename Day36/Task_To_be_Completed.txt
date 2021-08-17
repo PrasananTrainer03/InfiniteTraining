@@ -1,0 +1,36 @@
+Task to be completed 
+
+Create Table Complaint
+(
+   ComplaintID varchar(30) primary key,
+   ComplaintType varchar(30),
+   CDescription varchar(100),
+   ComplaintDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   Severity varchar(20),
+   Status varchar(30) default 'Pending'
+);
+
+ComplaintID to be generated Automatically C001,C002 etc...
+
+AddComplaint, SearchComplaint, ShowAllComplaint
+
+Create Table Resolve
+(
+   ComplaintID varchar(30),
+   ComplaintDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   ResolveDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   ResolvedBy varchar(30),
+   Comments varchar(100)
+);
+
+1) Write code for AddComplaint, SearchComplaint and ShowAllComplaints 
+
+2) Once the complaint resolved,
+ then it has to insert into Resolve Table, Update status as 'Resolved' in 
+complaints table
+
+3) If any complaint is not resolved for 1 week then please show that record in RED color
+
+4) If any complaint resolved after 5 days time, then it should be displayed in PINK color
+
+5) If any complaint resolved on same day display the record in GREEN color  

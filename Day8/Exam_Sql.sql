@@ -1,6 +1,6 @@
 -- Display the last occurrence of given char in a string 
 
--- ex : table name as 'Bhagyashree' char 'a' exists 2 times
+-- ex : value as 'Bhagyashree' char 'a' exists 2 times
 -- print the last occurrence 
 
 -- Display all Ename of Emp table in sentence case means 

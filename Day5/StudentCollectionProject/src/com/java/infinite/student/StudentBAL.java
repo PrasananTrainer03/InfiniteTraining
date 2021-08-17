@@ -12,7 +12,7 @@ public class StudentBAL {
 	public Student searchStudentBal(int sno) {
 		return new StudentDAO().searchStudentDao(sno);
 	}
-	public List<Student> showStudentBal() {
+	public Student[] showStudentBal() {
 		return new StudentDAO().showStudentDao();
 	}
 	 

@@ -41,8 +41,8 @@ public class StudentDAO {
 		return result;
 	}
 	
-	public List<Student> showStudentDao() {
-		return lstStudent;
+	public Student[] showStudentDao() {
+		return lstStudent.toArray(new Student[lstStudent.size()]);
 	}
 	
 	public String addStudentDao(Student student) {

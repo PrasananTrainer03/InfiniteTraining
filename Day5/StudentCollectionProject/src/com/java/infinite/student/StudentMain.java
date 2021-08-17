@@ -70,7 +70,7 @@ public class StudentMain {
 	}
 	public static void showStudent() {
 		StudentBAL bal = new StudentBAL();
-		List<Student> studentList = bal.showStudentBal();
+		Student[] studentList = bal.showStudentBal();
 		for (Student student : studentList) {
 			System.out.println(student);
 		}
