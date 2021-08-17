@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HibOneToMany</groupId>
+  <artifactId>HibOneToMany</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>15</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+   <dependencies>
+  <dependency>    
+    <groupId>org.hibernate</groupId>    
+    <artifactId>hibernate-core</artifactId>    
+    <version>5.3.1.Final</version>    
+</dependency>    
+ <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.18</version>
+</dependency>
+   <dependency>
+    <groupId>com.oracle.ojdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>19.3.0.0</version>
+</dependency>
+<dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+<!-- Runtime, com.sun.xml.bind module -->
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+    <version>2.3.2</version>
+</dependency>
+</dependencies>
+</project>
