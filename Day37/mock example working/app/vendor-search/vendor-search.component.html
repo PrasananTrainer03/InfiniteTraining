@@ -1,0 +1,10 @@
+<p>vendor-search works!</p>
+
+Vendor Id : 
+<input type="number" name="venId" [(ngModel)]="venId" /> <br/><br/> 
+
+<input type="submit" value="Search" (click)="search()" />
+
+Vendor Name : 
+
+{{(vendor | async)?.ven_Name}} <br/>

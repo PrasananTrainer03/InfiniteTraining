@@ -1,0 +1,21 @@
+<p>vendor-show-all works!</p>
+<table border="3" align="center">
+    <tr>
+        <th>Vendor Id</th>
+        <th>Vendor Name</th>
+        <th>Phone Number</th>
+        <th>UserName</th>
+        <th>Password</th>
+        <th>Email</th>
+        <th>Address</th>
+    </tr>    
+    <tr *ngFor="let v of vendors | async">
+        <td>{{v.ven_Id}}</td>
+        <td>{{v.ven_Name}} </td>
+        <td>{{v.ven_Number}} </td>
+        <td>{{v.ven_UserName}}</td>
+        <td>{{v.ven_Password}}</td>
+        <td>{{v.ven_Email}}</td>
+        <td>{{v.ven_Address}}</td>
+    </tr>
+</table>

@@ -20,3 +20,5 @@ Create Table Resolve
    ResolvedBy varchar(30),
    Comments varchar(100)
 );
+
+*** Plesae finish by 11.15 the Complaint 3 operations, as i will explain about resolve ***

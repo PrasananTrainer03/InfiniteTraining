@@ -1,0 +1,49 @@
+<p>vendor-Update works!</p>
+
+<form #vendorForm="ngForm" (ngSubmit)="update(vendorForm)">
+    Vendor No : 
+    <input type="number" (change)="show()" name="ven_Id" [(ngModel)]="vendor.ven_Id" required #ven_Id="ngModel" />
+    <br/><br/>
+    <div *ngIf="ven_Id.invalid && vendorForm.submitted && !isFormSubmitted"> 
+        <h6 style="color: red">Please Enter Vendor No...</h6>
+       </div> <br/>
+       Vendor Name : 
+       <input type="text" name="ven_Name" [(ngModel)]="vendor.ven_Name" required #ven_Name="ngModel" />
+       <br/><br/>
+       <div *ngIf="ven_Name.invalid && vendorForm.submitted && !isFormSubmitted"> 
+           <h6 style="color: red">Please Enter Vendor Name...</h6>
+          </div> <br/>
+      Vendor Phone No : 
+          <input type="text" name="ven_Number" [(ngModel)]="vendor.ven_Number" required #ven_Number="ngModel" />
+          <br/><br/>
+          <div *ngIf="ven_Number.invalid && vendorForm.submitted && !isFormSubmitted"> 
+              <h6 style="color: red">Please Enter Vendor Phone Number...</h6>
+             </div> <br/>
+       User Name : 
+             <input type="text" name="ven_UserName" [(ngModel)]="vendor.ven_UserName" 
+                required #ven_UserName="ngModel" />
+             <br/><br/>
+             <div *ngIf="ven_UserName.invalid && vendorForm.submitted && !isFormSubmitted"> 
+                 <h6 style="color: red">Please Enter Vendor UserName...</h6>
+                </div> <br/>
+                Vendor Password : 
+                <input type="text" name="ven_Password" [(ngModel)]="vendor.ven_Password" required #ven_Password="ngModel" />
+                <br/><br/>
+                <div *ngIf="ven_Password.invalid && vendorForm.submitted && !isFormSubmitted"> 
+                    <h6 style="color: red">Please Enter Vendor Password...</h6>
+                   </div> <br/>
+                   Vendor Email : 
+                   <input type="text" name="ven_Email" [(ngModel)]="vendor.ven_Email" required #ven_Email="ngModel" />
+                   <br/><br/>
+                   <div *ngIf="ven_Email.invalid && vendorForm.submitted && !isFormSubmitted"> 
+                       <h6 style="color: red">Please Enter Vendor Email...</h6>
+                      </div> <br/>
+                      Vendor Address : 
+                      <input type="text" name="ven_Address" [(ngModel)]="vendor.ven_Address" required #ven_Address="ngModel" />
+                      <br/><br/>
+                      <div *ngIf="ven_Address.invalid && vendorForm.submitted && !isFormSubmitted"> 
+                          <h6 style="color: red">Please Enter Vendor Address...</h6>
+                         </div> <br/>
+   
+    <input type="submit" value="Insert" />
+</form>
