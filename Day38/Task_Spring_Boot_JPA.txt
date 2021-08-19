@@ -1,0 +1,46 @@
+Using Spring Boot Generate CRUD Services using JPA for 
+
+Orders Table 
+
+and call them from Client and Show the result as it returns JSON data. 
+
+DROP TABLE IF EXISTS ORDERS;
+
+CREATE TABLE ORDERS
+(
+ORD_ID INT (10) NOT NULL AUTO_INCREMENT,
+CUS_ID INT(10) unsigned NOT NULL REFERENCES CUSTOMER(CUS_Id),
+VEN_ID INT(10) unsigned NOT NULL REFERENCES VENDOR(VEN_ID),
+MEN_ID INT(10) NOT NULL REFERENCES MENU(MEN_ID),
+WAL_SOURCE Varchar(30),
+ORD_DATE date,
+ORD_QTY INT,
+ORD_BILLAMOUNT double,
+ORD_STATUS ENUM('ACCEPTED','DENIED','PENDING','CANCELLED') DEFAULT 'PENDING',
+ORD_COMMENTS varchar(50) DEFAULT NULL,
+PRIMARY KEY(ORD_ID)
+);
+
+CREATE TABLE Customer (
+  CUS_ID int(10) NOT NULL AUTO_INCREMENT,
+  CUS_NAME varchar(50) NOT NULL,
+  CUS_PHNNO varchar(50) NOT NULL,
+  CUS_USERNAME varchar(50) NOT NULL,
+  CUS_PASSWORD varchar(50) NOT NULL,
+  CUS_EMAIL varchar(50) NOT NULL,
+  CUS_DOB date,
+  CUS_ADDRESS varchar(100),
+  PRIMARY KEY (CUS_ID),
+  UNIQUE KEY CUS_PHNNO (CUS_PHNNO),
+  UNIQUE KEY CUS_USERNAME (CUS_USERNAME)
+);
+
+INSERT INTO CUSTOMER(CUS_ID,CUS_NAME,CUS_PHNNO,CUS_USERNAME,CUS_PASSWORD,CUS_EMAIL,CUS_DOB,CUS_ADDRESS)
+VALUES (1,'Nikhil','9000000009','nikhil1','nikhil@123', 'nikhil@gmail.com','1997-05-16','CHENNAI'),
+       (2,'Arpita','9111111119','arpita2','arpita@123', 'arpita@gmail.com','1998-01-07','KOLKATA'),
+       (3,'Ashmita','9222222229','ashmita3','ashmita@123', 'ashmita@gmmail.com','1997-02-14','BANGLORE'),
+       (4,'Ayush','9333333339','ayush4','ayush@123', 'ayush@gmmail.com','1997-06-06','JAMSHEDPUR');
+
+
+Only 3 opereations as 
+1) Show Orders  2) Search Order 3) Place Order 
