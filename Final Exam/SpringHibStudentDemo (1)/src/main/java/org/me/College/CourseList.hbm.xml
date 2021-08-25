@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 27, 2017 11:16:16 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.me.College.CourseList" table="COURSELIST">
+        <id name="courseno" type="java.lang.String">
+            <column name="COURSENO" />
+            <generator class="assigned" />
+        </id>
+        <property name="duration" type="int">
+            <column name="DURATION" />
+        </property>
+        <property name="startDate" type="java.sql.Date">
+            <column name="STARTDATE" />
+        </property>
+        <property name="endDate" type="java.sql.Date">
+            <column name="ENDDATE" />
+        </property>
+        <property name="HOD" type="java.lang.String">
+            <column name="HOD" />
+        </property>
+    </class>
+</hibernate-mapping>

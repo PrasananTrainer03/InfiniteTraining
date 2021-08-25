@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 27, 2017 11:16:25 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.me.College.subjects" table="SUBJECTS">
+        <id name="year" type="int">
+            <column name="YEAR" />
+            <generator class="assigned" />
+        </id>
+        <property name="instructor" type="java.lang.String">
+            <column name="INSTRUCTOR" />
+        </property>
+        <property name="subject" type="java.lang.String">
+            <column name="SUBJECT" />
+        </property>
+        <property name="theory" type="int">
+            <column name="THEORY" />
+        </property>
+        <property name="practical" type="int">
+            <column name="PRACTICAL" />
+        </property>
+    </class>
+</hibernate-mapping>
