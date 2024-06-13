@@ -6,11 +6,11 @@ templates for creating copies of such modules on demand.
 
 Object : An object a real world entity, that which possess 3 characterstics known as 
 
-	(i) State 
+	a. State 
 
-	(ii) Behaviour
+	b. Behaviour
 
-	(iii) Identity 
+	c. Identity 
 
 
 OOPS features : 
